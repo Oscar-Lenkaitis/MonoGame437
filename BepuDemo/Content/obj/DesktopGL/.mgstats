@@ -1,0 +1,6 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"C:/Users/oil20/source/repos/BepuDemo/BepuDemo/Content/ball.fbx","C:/Users/oil20/source/repos/BepuDemo/BepuDemo/Content/bin/DesktopGL/ball.xnb","ModelProcessor","ModelContent",40684,70144,0.1128949
+"C:/Users/oil20/source/repos/BepuDemo/BepuDemo/Content/basicHole2.fbx","C:/Users/oil20/source/repos/BepuDemo/BepuDemo/Content/bin/DesktopGL/basicHole2.xnb","ModelProcessor","ModelContent",28732,8644,0.1094685
+"C:/Users/oil20/source/repos/BepuDemo/BepuDemo/Content/box3.fbx","C:/Users/oil20/source/repos/BepuDemo/BepuDemo/Content/bin/DesktopGL/box3.xnb","ModelProcessor","ModelContent",26732,1732,0.001771
+"C:/Users/oil20/source/repos/BepuDemo/BepuDemo/Content/cube.fbx","C:/Users/oil20/source/repos/BepuDemo/BepuDemo/Content/bin/DesktopGL/cube.xnb","ModelProcessor","ModelContent",15264,1501,0.0018655
+"C:/Users/oil20/source/repos/BepuDemo/BepuDemo/Content/playground.fbx","C:/Users/oil20/source/repos/BepuDemo/BepuDemo/Content/bin/DesktopGL/playground.xnb","ModelProcessor","ModelContent",594784,379727,0.0309099
