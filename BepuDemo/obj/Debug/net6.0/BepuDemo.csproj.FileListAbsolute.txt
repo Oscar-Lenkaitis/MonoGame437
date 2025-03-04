@@ -32,3 +32,12 @@ C:\Users\oil20\source\repos\BepuDemo\BepuDemo\bin\Debug\net6.0\Content\playgroun
 C:\Users\oil20\source\repos\BepuDemo\BepuDemo\bin\Debug\net6.0\Content\box3.xnb
 C:\Users\oil20\source\repos\BepuDemo\BepuDemo\bin\Debug\net6.0\Content\basicHole2.xnb
 C:\Users\oil20\source\repos\BepuDemo\BepuDemo\bin\Debug\net6.0\Content\ball.xnb
+C:\Users\oil20\Source\Repos\MonoGame437\BepuDemo\obj\Debug\net6.0\BepuDemo.csproj.AssemblyReference.cache
+C:\Users\oil20\Source\Repos\MonoGame437\BepuDemo\obj\Debug\net6.0\BepuDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\oil20\Source\Repos\MonoGame437\BepuDemo\obj\Debug\net6.0\BepuDemo.AssemblyInfoInputs.cache
+C:\Users\oil20\Source\Repos\MonoGame437\BepuDemo\obj\Debug\net6.0\BepuDemo.AssemblyInfo.cs
+C:\Users\oil20\Source\Repos\MonoGame437\BepuDemo\obj\Debug\net6.0\BepuDemo.csproj.CoreCompileInputs.cache
+C:\Users\oil20\Source\Repos\MonoGame437\BepuDemo\obj\Debug\net6.0\BepuDemo.sourcelink.json
+C:\Users\oil20\Source\Repos\MonoGame437\BepuDemo\obj\Debug\net6.0\BepuDemo.dll
+C:\Users\oil20\Source\Repos\MonoGame437\BepuDemo\obj\Debug\net6.0\refint\BepuDemo.dll
+C:\Users\oil20\Source\Repos\MonoGame437\BepuDemo\obj\Debug\net6.0\BepuDemo.pdb

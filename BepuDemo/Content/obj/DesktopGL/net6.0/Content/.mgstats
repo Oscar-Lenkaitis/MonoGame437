@@ -1,6 +1,6 @@
 Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
-"C:/Users/oil20/source/repos/BepuDemo/BepuDemo/Content/ball.fbx","C:/Users/oil20/source/repos/BepuDemo/BepuDemo/Content/bin/DesktopGL/Content/ball.xnb","ModelProcessor","ModelContent",40684,70144,0.1135195
-"C:/Users/oil20/source/repos/BepuDemo/BepuDemo/Content/basicHole2.fbx","C:/Users/oil20/source/repos/BepuDemo/BepuDemo/Content/bin/DesktopGL/Content/basicHole2.xnb","ModelProcessor","ModelContent",28732,8644,0.108052
-"C:/Users/oil20/source/repos/BepuDemo/BepuDemo/Content/box3.fbx","C:/Users/oil20/source/repos/BepuDemo/BepuDemo/Content/bin/DesktopGL/Content/box3.xnb","ModelProcessor","ModelContent",26732,1732,0.0016998
-"C:/Users/oil20/source/repos/BepuDemo/BepuDemo/Content/cube.fbx","C:/Users/oil20/source/repos/BepuDemo/BepuDemo/Content/bin/DesktopGL/Content/cube.xnb","ModelProcessor","ModelContent",15264,1501,0.1051617
-"C:/Users/oil20/source/repos/BepuDemo/BepuDemo/Content/playground.fbx","C:/Users/oil20/source/repos/BepuDemo/BepuDemo/Content/bin/DesktopGL/Content/playground.xnb","ModelProcessor","ModelContent",594784,379727,0.1335026
+"C:/Users/oil20/Source/Repos/MonoGame437/BepuDemo/Content/ball.fbx","C:/Users/oil20/Source/Repos/MonoGame437/BepuDemo/Content/bin/DesktopGL/Content/ball.xnb","ModelProcessor","ModelContent",40684,70144,0.1714056
+"C:/Users/oil20/Source/Repos/MonoGame437/BepuDemo/Content/basicHole2.fbx","C:/Users/oil20/Source/Repos/MonoGame437/BepuDemo/Content/bin/DesktopGL/Content/basicHole2.xnb","ModelProcessor","ModelContent",28732,8644,0.0038817
+"C:/Users/oil20/Source/Repos/MonoGame437/BepuDemo/Content/box3.fbx","C:/Users/oil20/Source/Repos/MonoGame437/BepuDemo/Content/bin/DesktopGL/Content/box3.xnb","ModelProcessor","ModelContent",26732,1732,0.002422
+"C:/Users/oil20/Source/Repos/MonoGame437/BepuDemo/Content/cube.fbx","C:/Users/oil20/Source/Repos/MonoGame437/BepuDemo/Content/bin/DesktopGL/Content/cube.xnb","ModelProcessor","ModelContent",15264,1501,0.0021459
+"C:/Users/oil20/Source/Repos/MonoGame437/BepuDemo/Content/playground.fbx","C:/Users/oil20/Source/Repos/MonoGame437/BepuDemo/Content/bin/DesktopGL/Content/playground.xnb","ModelProcessor","ModelContent",594784,379727,0.0453845

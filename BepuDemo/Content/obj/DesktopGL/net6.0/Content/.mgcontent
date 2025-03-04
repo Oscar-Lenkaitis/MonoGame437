@@ -4,11 +4,11 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/oil20/source/repos/BepuDemo/BepuDemo/Content/ball.fbx</File>
-    <File>C:/Users/oil20/source/repos/BepuDemo/BepuDemo/Content/basicHole2.fbx</File>
-    <File>C:/Users/oil20/source/repos/BepuDemo/BepuDemo/Content/box3.fbx</File>
-    <File>C:/Users/oil20/source/repos/BepuDemo/BepuDemo/Content/cube.fbx</File>
-    <File>C:/Users/oil20/source/repos/BepuDemo/BepuDemo/Content/playground.fbx</File>
+    <File>C:/Users/oil20/Source/Repos/MonoGame437/BepuDemo/Content/ball.fbx</File>
+    <File>C:/Users/oil20/Source/Repos/MonoGame437/BepuDemo/Content/basicHole2.fbx</File>
+    <File>C:/Users/oil20/Source/Repos/MonoGame437/BepuDemo/Content/box3.fbx</File>
+    <File>C:/Users/oil20/Source/Repos/MonoGame437/BepuDemo/Content/cube.fbx</File>
+    <File>C:/Users/oil20/Source/Repos/MonoGame437/BepuDemo/Content/playground.fbx</File>
   </SourceFiles>
   <DestFiles>
     <File xsi:nil="true" />

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>C:/Users/oil20/source/repos/BepuDemo/BepuDemo/Content/basicHole2.fbx</SourceFile>
-  <SourceTime>2025-03-03T19:36:11.2555079-06:00</SourceTime>
-  <DestFile>C:/Users/oil20/source/repos/BepuDemo/BepuDemo/Content/bin/DesktopGL/Content/basicHole2.xnb</DestFile>
-  <DestTime>2025-03-03T19:36:51.0849157-06:00</DestTime>
+  <SourceFile>C:/Users/oil20/Source/Repos/MonoGame437/BepuDemo/Content/basicHole2.fbx</SourceFile>
+  <SourceTime>2025-03-03T23:59:38.5830219-06:00</SourceTime>
+  <DestFile>C:/Users/oil20/Source/Repos/MonoGame437/BepuDemo/Content/bin/DesktopGL/Content/basicHole2.xnb</DestFile>
+  <DestTime>2025-03-04T00:00:34.5769432-06:00</DestTime>
   <Importer>FbxImporter</Importer>
   <ImporterTime>2022-07-26T06:44:56-05:00</ImporterTime>
   <Processor>ModelProcessor</Processor>
