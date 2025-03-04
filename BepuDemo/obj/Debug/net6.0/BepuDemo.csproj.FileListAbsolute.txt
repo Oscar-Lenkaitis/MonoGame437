@@ -32,3 +32,4 @@ C:\Users\oil20\source\repos\BepuDemo\BepuDemo\bin\Debug\net6.0\Content\playgroun
 C:\Users\oil20\source\repos\BepuDemo\BepuDemo\bin\Debug\net6.0\Content\box3.xnb
 C:\Users\oil20\source\repos\BepuDemo\BepuDemo\bin\Debug\net6.0\Content\basicHole2.xnb
 C:\Users\oil20\source\repos\BepuDemo\BepuDemo\bin\Debug\net6.0\Content\ball.xnb
+C:\Users\oil20\source\repos\BepuDemo\BepuDemo\obj\Debug\net6.0\BepuDemo.sourcelink.json
