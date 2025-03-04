@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BepuDemo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bbdaacf114a5161ae929bfcdd23e08a4160b5b60")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+116eeb200722d3ecc1b397631c3cd433e3849610")]
 [assembly: System.Reflection.AssemblyProductAttribute("BepuDemo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BepuDemo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
