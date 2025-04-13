@@ -1,6 +1,7 @@
 ﻿
 using BEPUutilities;
 using Microsoft.Xna.Framework.Input;
+using System;
 
 namespace BepuDemo
 {
@@ -13,6 +14,7 @@ namespace BepuDemo
         /// Gets or sets the position of the camera.
         /// </summary>
         public Vector3 Position { get; set; }
+
         float yaw;
         float pitch;
         /// <summary>
@@ -50,9 +52,14 @@ namespace BepuDemo
         public float Speed { get; set; }
 
         /// <summary>
+        /// sets freecam or loocked cam.
+        /// </summary>
+        public bool follow = false;
+
+        /// <summary>
         /// Gets the view matrix of the camera.
         /// </summary>
-        public Matrix ViewMatrix { get; private set; }
+        public Matrix ViewMatrix { get; set; }
         /// <summary>
         /// Gets or sets the projection matrix of the camera.
         /// </summary>
@@ -61,7 +68,7 @@ namespace BepuDemo
         /// <summary>
         /// Gets the world transformation of the camera.
         /// </summary>
-        public Matrix WorldMatrix { get; private set; }
+        public Matrix WorldMatrix { get; set; }
 
         /// <summary>
         /// Gets the game owning the camera.
@@ -117,31 +124,67 @@ namespace BepuDemo
         public void Update(float dt)
         {
             //Turn based on mouse input.
-            Yaw += (200 - Game.MouseState.X) * dt * .12f;
-            Pitch += (200 - Game.MouseState.Y) * dt * .12f;
-            Mouse.SetPosition(200, 200);
+            if (!follow)
+            {
+                Yaw += (200 - Game.MouseState.X) * dt * .12f;
+                Pitch += (200 - Game.MouseState.Y) * dt * .12f;
+                Mouse.SetPosition(200, 200);
+
+                float distance = Speed * dt;
+
+                //Scoot the camera around depending on what keys are pressed.
+                if (Game.KeyboardState.IsKeyDown(Keys.E))
+                    MoveForward(distance);
+                if (Game.KeyboardState.IsKeyDown(Keys.D))
+                    MoveForward(-distance);
+                if (Game.KeyboardState.IsKeyDown(Keys.S))
+                    MoveRight(-distance);
+                if (Game.KeyboardState.IsKeyDown(Keys.F))
+                    MoveRight(distance);
+                if (Game.KeyboardState.IsKeyDown(Keys.A))
+                    MoveUp(distance);
+                if (Game.KeyboardState.IsKeyDown(Keys.Z))
+                    MoveUp(-distance);
+
+            }
 
             WorldMatrix = Matrix.CreateFromAxisAngle(Vector3.Right, Pitch) * Matrix.CreateFromAxisAngle(Vector3.Up, Yaw);
 
 
-            float distance = Speed * dt;
-
-            //Scoot the camera around depending on what keys are pressed.
-            if (Game.KeyboardState.IsKeyDown(Keys.E))
-                MoveForward(distance);
-            if (Game.KeyboardState.IsKeyDown(Keys.D))
-                MoveForward(-distance);
-            if (Game.KeyboardState.IsKeyDown(Keys.S))
-                MoveRight(-distance);
-            if (Game.KeyboardState.IsKeyDown(Keys.F))
-                MoveRight(distance);
-            if (Game.KeyboardState.IsKeyDown(Keys.A))
-                MoveUp(distance);
-            if (Game.KeyboardState.IsKeyDown(Keys.Z))
-                MoveUp(-distance);
+            
 
             WorldMatrix = WorldMatrix * Matrix.CreateTranslation(Position);
             ViewMatrix = Matrix.Invert(WorldMatrix);
+        }
+
+        public  void CreateLookAt(Camera camera, Vector3 targetPosition, Vector3 up, float dt)
+        {
+            //float heightAboveBall = 3f;
+
+            Vector3 cameraForward = Vector3.Normalize(targetPosition - camera.Position);
+
+            // Calculate the right vector (cross product of the up vector and the forward vector)
+            Vector3 right = Vector3.Normalize(Vector3.Cross(up, cameraForward));
+
+            // Calculate the corrected up vector (cross product of forward and right vectors)
+            Vector3 correctedUp = Vector3.Cross(cameraForward, right);
+
+            camera.Yaw += (200 - Game.MouseState.X) * dt * .12f;
+            camera.Pitch = (0);
+            Mouse.SetPosition(200, 200);
+
+            // Construct the 4x4 matrix
+            camera.WorldMatrix =  new Matrix(
+                right.X, correctedUp.X, -cameraForward.X, 0,
+                right.Y, correctedUp.Y, -cameraForward.Y, 0,
+                right.Z, correctedUp.Z, -cameraForward.Z, 0,
+                -Vector3.Dot(right, camera.Position),
+                -Vector3.Dot(correctedUp, camera.Position),
+                Vector3.Dot(cameraForward, camera.Position),
+                1
+            );
+
+            
         }
     }
 }

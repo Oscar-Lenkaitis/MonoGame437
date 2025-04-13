@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SourceFile>C:/Users/oil20/source/repos/BepuDemo - Copy/BepuDemo/Content/inthehole.wav</SourceFile>
+  <SourceTime>2025-04-05T16:12:44.4106715-05:00</SourceTime>
+  <DestFile>C:/Users/oil20/source/repos/BepuDemo - Copy/BepuDemo/Content/bin/DesktopGL/inthehole.xnb</DestFile>
+  <DestTime>2025-04-13T01:35:04.25422-05:00</DestTime>
+  <Importer>WavImporter</Importer>
+  <ImporterTime>2022-07-26T06:44:56-05:00</ImporterTime>
+  <Processor>SoundEffectProcessor</Processor>
+  <ProcessorTime>2022-07-26T06:44:56-05:00</ProcessorTime>
+  <Parameters>
+    <Key>Quality</Key>
+    <Value>Best</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput />
+</PipelineBuildEvent>

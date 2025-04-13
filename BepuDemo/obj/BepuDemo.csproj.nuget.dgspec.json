@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\oil20\\source\\repos\\BepuDemo\\BepuDemo\\BepuDemo.csproj": {}
+    "C:\\Users\\oil20\\source\\repos\\BepuDemo - Copy\\BepuDemo\\BepuDemo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\oil20\\source\\repos\\BepuDemo\\BepuDemo\\BepuDemo.csproj": {
+    "C:\\Users\\oil20\\source\\repos\\BepuDemo - Copy\\BepuDemo\\BepuDemo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\oil20\\source\\repos\\BepuDemo\\BepuDemo\\BepuDemo.csproj",
+        "projectUniqueName": "C:\\Users\\oil20\\source\\repos\\BepuDemo - Copy\\BepuDemo\\BepuDemo.csproj",
         "projectName": "BepuDemo",
-        "projectPath": "C:\\Users\\oil20\\source\\repos\\BepuDemo\\BepuDemo\\BepuDemo.csproj",
+        "projectPath": "C:\\Users\\oil20\\source\\repos\\BepuDemo - Copy\\BepuDemo\\BepuDemo.csproj",
         "packagesPath": "C:\\Users\\oil20\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\oil20\\source\\repos\\BepuDemo\\BepuDemo\\obj\\",
+        "outputPath": "C:\\Users\\oil20\\source\\repos\\BepuDemo - Copy\\BepuDemo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -57,6 +57,10 @@
             "MonoGame.Framework.DesktopGL": {
               "target": "Package",
               "version": "[3.8.1.303, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             }
           },
           "imports": [
