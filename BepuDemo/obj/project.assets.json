@@ -152,11 +152,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\oil20\\source\\repos\\BepuDemo - Copy\\BepuDemo\\BepuDemo.csproj",
+      "projectUniqueName": "C:\\Users\\oil20\\source\\repos\\MonoGolf\\BepuDemo\\BepuDemo.csproj",
       "projectName": "BepuDemo",
-      "projectPath": "C:\\Users\\oil20\\source\\repos\\BepuDemo - Copy\\BepuDemo\\BepuDemo.csproj",
+      "projectPath": "C:\\Users\\oil20\\source\\repos\\MonoGolf\\BepuDemo\\BepuDemo.csproj",
       "packagesPath": "C:\\Users\\oil20\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\oil20\\source\\repos\\BepuDemo - Copy\\BepuDemo\\obj\\",
+      "outputPath": "C:\\Users\\oil20\\source\\repos\\MonoGolf\\BepuDemo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
