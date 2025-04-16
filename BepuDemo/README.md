@@ -1,6 +1,5 @@
-
-	 
 CONTROLS:
+
 	Camera:
 		Forward: E
 		Backward: D
@@ -13,4 +12,4 @@ CONTROLS:
 
 	Shoot: Space (hold longer for more power)
 	Reset to start of hole: R (shots do not reset)
-	Close Game: ESC 
+	Close Game: ESC  
