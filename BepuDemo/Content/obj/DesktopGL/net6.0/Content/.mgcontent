@@ -4,17 +4,17 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/oil20/source/repos/BepuDemo - Copy/BepuDemo/Content/../../../../../Downloads/ballbounce.wav</File>
-    <File>C:/Users/oil20/source/repos/BepuDemo - Copy/BepuDemo/Content/ball.fbx</File>
-    <File>C:/Users/oil20/source/repos/BepuDemo - Copy/BepuDemo/Content/ball2.fbx</File>
-    <File>C:/Users/oil20/source/repos/BepuDemo - Copy/BepuDemo/Content/basicHole2.fbx</File>
-    <File>C:/Users/oil20/source/repos/BepuDemo - Copy/BepuDemo/Content/box3.fbx</File>
-    <File>C:/Users/oil20/source/repos/BepuDemo - Copy/BepuDemo/Content/Course1.fbx</File>
-    <File>C:/Users/oil20/source/repos/BepuDemo - Copy/BepuDemo/Content/cube.fbx</File>
-    <File>C:/Users/oil20/source/repos/BepuDemo - Copy/BepuDemo/Content/golfhit.wav</File>
-    <File>C:/Users/oil20/source/repos/BepuDemo - Copy/BepuDemo/Content/inthehole.wav</File>
-    <File>C:/Users/oil20/source/repos/BepuDemo - Copy/BepuDemo/Content/playground.fbx</File>
-    <File>C:/Users/oil20/source/repos/BepuDemo - Copy/BepuDemo/Content/ScoreFont.spritefont</File>
+    <File>C:/Users/oil20/source/repos/MonoGolf/BepuDemo/Content/../../../../../Downloads/ballbounce.wav</File>
+    <File>C:/Users/oil20/source/repos/MonoGolf/BepuDemo/Content/ball.fbx</File>
+    <File>C:/Users/oil20/source/repos/MonoGolf/BepuDemo/Content/ball2.fbx</File>
+    <File>C:/Users/oil20/source/repos/MonoGolf/BepuDemo/Content/basicHole2.fbx</File>
+    <File>C:/Users/oil20/source/repos/MonoGolf/BepuDemo/Content/box3.fbx</File>
+    <File>C:/Users/oil20/source/repos/MonoGolf/BepuDemo/Content/Course1.fbx</File>
+    <File>C:/Users/oil20/source/repos/MonoGolf/BepuDemo/Content/cube.fbx</File>
+    <File>C:/Users/oil20/source/repos/MonoGolf/BepuDemo/Content/golfhit.wav</File>
+    <File>C:/Users/oil20/source/repos/MonoGolf/BepuDemo/Content/inthehole.wav</File>
+    <File>C:/Users/oil20/source/repos/MonoGolf/BepuDemo/Content/playground.fbx</File>
+    <File>C:/Users/oil20/source/repos/MonoGolf/BepuDemo/Content/ScoreFont.spritefont</File>
   </SourceFiles>
   <DestFiles>
     <File>ballbounce.wav</File>

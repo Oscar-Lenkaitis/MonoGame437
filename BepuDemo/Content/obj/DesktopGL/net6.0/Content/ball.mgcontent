@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>C:/Users/oil20/source/repos/BepuDemo - Copy/BepuDemo/Content/ball.fbx</SourceFile>
+  <SourceFile>C:/Users/oil20/source/repos/MonoGolf/BepuDemo/Content/ball.fbx</SourceFile>
   <SourceTime>2025-03-04T19:45:14.7587598-06:00</SourceTime>
-  <DestFile>C:/Users/oil20/source/repos/BepuDemo - Copy/BepuDemo/Content/bin/DesktopGL/Content/ball.xnb</DestFile>
-  <DestTime>2025-04-13T01:02:55.7770692-05:00</DestTime>
+  <DestFile>C:/Users/oil20/source/repos/MonoGolf/BepuDemo/Content/bin/DesktopGL/Content/ball.xnb</DestFile>
+  <DestTime>2025-04-15T20:40:22.8322248-05:00</DestTime>
   <Importer>FbxImporter</Importer>
   <ImporterTime>2022-07-26T06:44:56-05:00</ImporterTime>
   <Processor>ModelProcessor</Processor>
